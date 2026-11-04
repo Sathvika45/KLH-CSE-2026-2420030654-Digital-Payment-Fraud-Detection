@@ -1,0 +1,106 @@
+# ==============================================================================
+# Git Ignore - Comparative Analysis of Fraud Detection Techniques in Digital Payment Systems
+# ==============================================================================
+
+# Python Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Byte-compiled / optimized / cached files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller / Executables
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook checkpoints & autosaves
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+
+# Large datasets excluded due to GitHub file-size limits
+data/raw/creditcard.csv
+data/raw/paysim.csv
+
+# Processed data excluded
+data/processed/*
+!data/processed/.gitkeep
+
+# Serialized Model Artifacts
+outputs/models/*
+!outputs/models/.gitkeep
+
+# Evaluation and Run Artifacts
+outputs/figures/*
+!outputs/figures/.gitkeep
+outputs/reports/*
+!outputs/reports/.gitkeep
+
+# OS generated files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Environment Variables & Secrets
+.env
+.env.local
+.env.*.local
+*.log
+

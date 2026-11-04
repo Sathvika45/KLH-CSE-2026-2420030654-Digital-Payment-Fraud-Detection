@@ -1,0 +1,2 @@
+threshold,precision,recall,f1,average_precision,roc_auc,mcc,false_positive_rate,true_positives,false_positives,true_negatives,false_negatives,model,training_time_sec,inference_ms_per_1000
+0.628052061094836,0.9682539682539683,0.6421052631578947,0.7721518987341772,0.6856423091333315,0.970477596437653,0.788226905784156,3.530387813101269e-05,61,2,56649,34,Soft Voting RF + LightGBM,23.300803299993277,3.4374299510315973

@@ -1,0 +1,2 @@
+scale_pos_weight,training_time_sec,validation_threshold,validation_precision,validation_recall,validation_f1,test_threshold,test_precision,test_recall,test_f1,test_pr_auc,test_roc_auc,test_mcc,test_fpr,test_tp,test_fp,test_tn,test_fn
+10,0.5182618999970146,1.0,0.43333333333333335,0.5,0.4642857142857143,1.0,0.4838709677419355,0.5769230769230769,0.5263157894736842,0.36434275952942885,0.916045667059485,0.5276849134306625,0.0008010413537598879,15,16,19958,11

@@ -1,0 +1,2 @@
+total_samples,legitimate_count,fraud_count,legitimate_percentage,fraud_percentage,imbalance_ratio,target_classes,is_balanced,dataset_id,display_name,target_column,total_rows_evaluated,duplicate_rows,total_missing_values,is_sampled,is_test_fixture
+6362620,6354407,8213,99.8709,0.1291,773.7,"[0, 1]",False,paysim,PaySim Mobile Money Simulation,isFraud,6362620,0,0,False,False
